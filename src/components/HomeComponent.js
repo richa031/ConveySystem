@@ -22,15 +22,7 @@ class Home extends Component{
         return(
             <div className="container">
                 What do you wanna do?
-                <Form className="form-inline my-2 my-lg-0">
                 
-                    <Button className="btn btn-secondary my-2 mr-sm-2"  onClick={this.toggleAlert}>
-                        <span className="login"></span>need
-                    </Button>
-                    <Button className="btn btn-info my-2 my-sm-2"  onClick={this.toggleAlert}>
-                        <span className="Signup"></span>bring
-                    </Button>
-                </Form>
             </div>
         );
     }

@@ -19,7 +19,9 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import {Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Jumbotron, Modal, ModalHeader, ModalBody, Form, FormGroup, Label, Input } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
-import  Login  from './LoginForm';
+//import  Login  from './LoginForm';
+//import FormPage from './Login';
+import Login from './LoginForm';
 
 const styles = theme => ({
   root: {

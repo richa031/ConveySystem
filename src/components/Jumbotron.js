@@ -18,7 +18,7 @@ const JumbotronPage = () => {
               within the larger container.
             </p>
             <p className="lead">
-              <MDBBtn color="info">Learn More</MDBBtn>
+              <MDBBtn color="default">Learn More</MDBBtn>
             </p>
           </MDBJumbotron>
         </MDBCol>

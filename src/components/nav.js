@@ -1,16 +1,32 @@
 import React from "react";
-import { Navbar, NavbarBrand, NavbarNav, NavItem, NavLink, NavbarToggler, Collapse, FormInline, Dropdown, DropdownToggle, DropdownMenu,  DropdownItem } from "mdbreact";
+import { Fa,Navbar, NavbarBrand, NavbarNav, NavItem, NavLink, NavbarToggler, Collapse, FormInline, Dropdown, DropdownToggle, DropdownMenu,  DropdownItem, MDBBtn } from "mdbreact";
+import {Modal, ModalHeader, ModalBody} from 'reactstrap';
 
 class NavbarPage extends React.Component {
-  state = {
-    isOpen: false
-  };
+  constructor(props){
+    super(props);
+    this.state = {
+      isOpen: false,
+      isModalOpen: false
+    };
+    this.toggleCollapse = this.toggleCollapse.bind(this);
+    this.toggleModal = this.toggleModal.bind(this);
+  }
+  
 
-  toggleCollapse = this.setState({ isOpen: !this.state.isOpen });
+  toggleCollapse(){
+    this.setState({ isOpen: !this.state.isOpen });
+  } 
+  
+  toggleModal() {
+    this.setState({
+        isModalOpen: !this.state.isModalOpen
+    });
+  }
 
   render() {
     return (
-
+      <div>
       <Navbar color="default-color" dark expand="md">
           <NavbarBrand>
             <strong className="white-text">Navbar</strong>
@@ -51,8 +67,9 @@ class NavbarPage extends React.Component {
               <NavItem>
                 <FormInline waves>
                   <div className="md-form my-0">
+                  <Fa className="text-white" icon="search"  />
                     <input
-                      className="form-control mr-md-5"
+                      className="form-control col-md-12"
                       type="text"
                       placeholder="Search for products"
                       aria-label="Search"
@@ -61,8 +78,22 @@ class NavbarPage extends React.Component {
                 </FormInline>
               </NavItem>
             </NavbarNav>
+
+            <NavbarNav right>
+              <NavItem>
+                <FormInline waves>
+                  <div className="md-form my-0">
+                  <MDBBtn outline color="white" onClick={this.toggleModal}>Login</MDBBtn>
+                  </div>
+                </FormInline>
+              </NavItem>
+            </NavbarNav>
           </Collapse>
-      </Navbar>
+        </Navbar>
+      <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal} >
+        <ModalHeader toggle={this.toggleModal}>Login</ModalHeader>
+      </Modal>
+      </div>
     );
   }
 }

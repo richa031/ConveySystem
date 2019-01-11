@@ -93,7 +93,7 @@ class NavbarPage extends React.Component {
 
 
       <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal} >
-      <ModalBody toggle={this.toggleModal}>
+      <ModalBody>
       <MDBContainer>
       <MDBRow>
         <MDBCol md="12">

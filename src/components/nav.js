@@ -15,7 +15,9 @@ class NavbarPage extends React.Component {
   
 
   toggleCollapse(){
-    this.setState({ isOpen: !this.state.isOpen });
+    this.setState({ 
+      isOpen: !this.state.isOpen 
+    });
   } 
   
   toggleModal() {
@@ -27,7 +29,7 @@ class NavbarPage extends React.Component {
   render() {
     return (
       <div>
-      <Navbar color="default-color" dark expand="md">
+      <Navbar color="default-color-dark" dark expand="md">
           <NavbarBrand>
             <strong className="white-text">Navbar</strong>
           </NavbarBrand>
@@ -134,7 +136,7 @@ class NavbarPage extends React.Component {
     </MDBContainer>
     </ModalBody>
     </Modal>
-      </div>
+    </div>
     );
   }
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import  Header  from './HeaderComponent';
-import { Footer } from './Footer';
-import { Form, Button } from 'reactstrap';
+import  EcommercePage  from './categories';
+
+
 
 //import { Button, Form } from 'react-materialize';
 
@@ -21,7 +21,7 @@ class Home extends Component{
        
         return(
             <div className="container">
-                What do you wanna do?
+               <EcommercePage />
                 
             </div>
         );

@@ -51,10 +51,11 @@ class NavbarPage extends React.Component {
                     <div className="d-none d-md-inline">Categories</div>
                   </DropdownToggle>
                   <DropdownMenu right>
-                    <DropdownItem href="#!">Action</DropdownItem>
-                    <DropdownItem href="#!">Another Action</DropdownItem>
-                    <DropdownItem href="#!">Something else here</DropdownItem>
-                    <DropdownItem href="#!">Something else here</DropdownItem>
+                    <DropdownItem href="#!">Grocery</DropdownItem>
+                    <DropdownItem href="#!">Books {`&`} Stationery</DropdownItem>
+                    <DropdownItem href="#!">Electronics</DropdownItem>
+                    <DropdownItem href="#!">Sports {`&`} Fitness</DropdownItem>
+                    <DropdownItem href="#!">Accessories</DropdownItem>
                   </DropdownMenu>
                 </Dropdown>
               </NavItem>

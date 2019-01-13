@@ -11,21 +11,21 @@ function Footer(props) {
                     <h5>Links</h5>
                     <ul className="list-unstyled">
                         <li><Link to="/home">Home</Link></li>
-                        <li><Link to="/aboutus">About</Link></li>
-                        <li><Link to="/menu">Menu</Link></li>
-                        <li><Link to="/contactus">Contact</Link></li>
+                        <li><Link to="/aboutus">Categories</Link></li>
+                        <li><Link to="/menu">About Us</Link></li>
+                        <li><Link to="/contactus">Contact Us</Link></li>
                     </ul>
                 </div>
                 <div className="col-7 col-sm-5">
                     <h5>Our Address</h5>
                     <address>
-		              121, Clear Water Bay Road<br />
-		              Clear Water Bay, Kowloon<br />
-		              HONG KONG<br />
+                        Rupa ki Nangal,<br />
+                        Post-Sumel, Via-Jamdoli, Sumel<br />
+                        Jaipur, Rajasthan 302031<br />
 		              <i className="fa fa-phone fa-lg"></i>: +852 1234 5678<br />
 		              <i className="fa fa-fax fa-lg"></i>: +852 8765 4321<br />
 		              <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">
-                         confusion@food.net</a>
+                         convey@lnmiit.net</a>
                     </address>
                 </div>
                 <div className="col-12 col-sm-4 align-self-center">
@@ -41,7 +41,7 @@ function Footer(props) {
             </div>
             <div className="row justify-content-center">             
                 <div className="col-auto">
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+                    <p>© Copyright 2019 Let's D(Deliver)</p>
                 </div>
             </div>
         </div>

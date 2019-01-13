@@ -2,6 +2,7 @@ import React from "react";
 import { Fa,Navbar, NavbarBrand, NavbarNav, NavItem, NavLink, NavbarToggler, Collapse, FormInline, Dropdown, DropdownToggle, DropdownMenu,  DropdownItem, MDBBtn, MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBInput } from "mdbreact";
 import {Modal, ModalHeader, ModalBody} from 'reactstrap';
 
+
 class NavbarPage extends React.Component {
   constructor(props){
     super(props);
@@ -43,7 +44,7 @@ class NavbarPage extends React.Component {
           >
             <NavbarNav left>
               <NavItem active>
-                <NavLink to="#!">Home</NavLink>
+                <NavLink to="/home">Home</NavLink>
               </NavItem>
               <NavItem>
                 <Dropdown>
@@ -51,7 +52,7 @@ class NavbarPage extends React.Component {
                     <div className="d-none d-md-inline">Categories</div>
                   </DropdownToggle>
                   <DropdownMenu right>
-                    <DropdownItem href="#!">Grocery</DropdownItem>
+                    <DropdownItem href="/categories/grocery">Grocery</DropdownItem>
                     <DropdownItem href="#!">Books {`&`} Stationery</DropdownItem>
                     <DropdownItem href="#!">Electronics</DropdownItem>
                     <DropdownItem href="#!">Sports {`&`} Fitness</DropdownItem>
@@ -60,10 +61,10 @@ class NavbarPage extends React.Component {
                 </Dropdown>
               </NavItem>
               <NavItem>
-                <NavLink to="#!">About Us</NavLink>
+                <NavLink to="/aboutus">About Us</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="#!">Contact Us</NavLink>
+                <NavLink to="/contactus">Contact Us</NavLink>
               </NavItem>
             </NavbarNav>
             <NavbarNav right>

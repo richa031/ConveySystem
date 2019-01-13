@@ -3,7 +3,7 @@ import PrimarySearchAppBar from './navbar';
 import { Jumbotron, Modal, ModalHeader, ModalBody, Form, FormGroup, Label, Input } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 import NavbarPage from './nav';
-import CarouselPage from './Crousel';
+import CarouselPage from './Carousel';
 import JumbotronPage from './Jumbotron';
 
 class Header extends Component{
@@ -28,7 +28,6 @@ class Header extends Component{
     render(){
         return(//using React fragments
             <>
-                <NavbarPage /> <br/>
                 <CarouselPage/>
                 <JumbotronPage />   
            </>

@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
 import  EcommercePage  from './categories';
-
-
-
-//import { Button, Form } from 'react-materialize';
-
-
+import Header from './Header';
+import Footer from './Footer';
 
 class Home extends Component{
 
@@ -20,10 +16,11 @@ class Home extends Component{
     render(){
        
         return(
-            <div className="container">
+            <>
+                <Header />
                <EcommercePage />
-                
-            </div>
+               <Footer />
+            </>
         );
     }
 } 

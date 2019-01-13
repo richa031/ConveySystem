@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import  Home  from './Home';
-import { Switch, Route, Redirect } from 'react-router-dom';
 import Footer from './Footer';
-import Header from './Header';
 import TeamPage from './About';
 import ContactPage from './Contact';
-import Books from './Booksnstationery';
+import NavbarPage from './nav';
+import EcommercePage from './categories';
+import { Switch, Route, Redirect } from 'react-router-dom';
+
 
 class Main extends Component {
     
@@ -18,11 +19,11 @@ class Main extends Component {
         }
         return (
             <div>
-              <Header />
+              <NavbarPage />
               <Switch>
-                <Route path="/home" component={Home} />
-                <Route path="/categories/booksNstationery" component={Books} />
-                <Route path="/aboutus" component={TeamPage} />
+                <Route path="/home" component={HomePage} />
+                <Route exact path="/categories/grocery" component={() => <EcommercePage />} />
+                <Route exact path="/aboutus" component={() => <TeamPage />} />
                 <Route path="/contactus" component={() => <ContactPage />} />
                 <Redirect to="/home" />
               </Switch>

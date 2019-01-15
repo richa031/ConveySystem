@@ -3,8 +3,8 @@ import  Home  from './Home';
 import Footer from './Footer';
 import TeamPage from './About';
 import ContactPage from './Contact';
-import NavbarPage from './nav';
-import EcommercePage from './categories';
+import NavbarPage from './Nav';
+import EcommercePage from './Categories';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 

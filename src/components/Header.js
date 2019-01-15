@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PrimarySearchAppBar from './navbar';
 import { Jumbotron, Modal, ModalHeader, ModalBody, Form, FormGroup, Label, Input } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
-import NavbarPage from './nav';
+import NavbarPage from './Nav';
 import CarouselPage from './Carousel';
 import JumbotronPage from './Jumbotron';
 

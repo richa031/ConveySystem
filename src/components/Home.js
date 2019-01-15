@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import  EcommercePage  from './categories';
+import  EcommercePage  from './Categories';
 import Header from './Header';
 import Footer from './Footer';
 
@@ -19,7 +19,7 @@ class Home extends Component{
             <>
                 <Header />
                <EcommercePage />
-               <Footer />
+               
             </>
         );
     }

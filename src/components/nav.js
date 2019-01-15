@@ -29,7 +29,7 @@ class NavbarPage extends React.Component {
 
   render() {
     return (
-      <div>
+      <>
       <Navbar color="default-color-dark" dark expand="md">
           <NavbarBrand>
             <strong className="white-text">Navbar</strong>
@@ -138,7 +138,7 @@ class NavbarPage extends React.Component {
     </MDBContainer>
     </ModalBody>
     </Modal>
-    </div>
+    </>
     );
   }
 }

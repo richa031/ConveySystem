@@ -13,6 +13,8 @@
     "react": "^16.7.0",
     "react-animated-css": "^1.0.4",
     "react-dom": "^16.7.0",
+    "react-facebook-login": "^4.1.1",
+    "react-google-login": "^5.0.0",
     "react-materialize": "^2.6.0",
     "react-popper": "^1.3.2",
     "react-router-dom": "^4.3.1",

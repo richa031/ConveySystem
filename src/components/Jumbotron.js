@@ -2,6 +2,7 @@ import React from "react";
 import { MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBInput, MDBIcon } from "mdbreact";
 import {Modal, ModalBody, Form} from 'reactstrap';
 import FacebookLogin from 'react-facebook-login/dist/facebook-login-render-props';
+import { GoogleLogin } from 'react-google-login';
 
 class JumbotronPage extends React.Component {
   constructor(props){
@@ -24,6 +25,11 @@ class JumbotronPage extends React.Component {
   responseFacebook(response) {
     console.log(response);
   }
+
+   
+ responseGoogle(response) {
+  console.log(response);
+}
   
   toggleModal() {
     this.setState({
@@ -140,7 +146,7 @@ class JumbotronPage extends React.Component {
                   />
                   <label htmlFor="defaultCheck12" className="grey-text">
                     Accept the
-                    <a href="#!" className="blue-text">
+                    <a href="https://app-privacy-policy-generator.firebaseapp.com/#" className="blue-text">
 
                       Terms and Conditions
                     </a>
@@ -187,11 +193,20 @@ class JumbotronPage extends React.Component {
                     )}
                 /> 
                 </div>
+                <div className="fa-lg p-2 m-2 gplus-ic">
+                    <GoogleLogin
+                      clientId="237120660865-3r3jr4p4a1dp16l5cccucbdr8ttg7hmu.apps.googleusercontent.com"
+                      render={renderProps => (
+                        <MDBIcon onClick={renderProps.onClick} className="fa fa-google-plus white-text fa-lg"> </MDBIcon>
+                      )}
+                      buttonText="Login"
+                      onSuccess={this.responseGoogle}
+                      onFailure={this.responseGoogle}
+                    />
+                  
+                </div>
                 <a href="#!" className="fa-lg p-2 m-2 tw-ic">
                   <MDBIcon className="fa fa-twitter white-text fa-lg"> </MDBIcon>
-                </a>
-                <a href="#!" className="fa-lg p-2 m-2 gplus-ic">
-                  <MDBIcon className="fa fa-google-plus white-text fa-lg"> </MDBIcon>
                 </a>
               </MDBRow>
             </div>

@@ -1,30 +1,29 @@
 import React from "react";
-import { MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBInput, MDBIcon } from "mdbreact";
-import {Modal, ModalBody, Form} from 'reactstrap';
-import FacebookLogin from 'react-facebook-login/dist/facebook-login-render-props';
+import { Fa,Navbar, NavbarBrand, NavbarNav, NavItem, NavLink, NavbarToggler, Collapse, FormInline, Dropdown, DropdownToggle, DropdownMenu,  DropdownItem, MDBBtn, MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBInput, MDBIcon } from "mdbreact";
+import {Modal, ModalHeader, ModalBody, Form} from 'reactstrap';
 
-class JumbotronPage extends React.Component {
+
+class NavbarPage extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      isLoggedIn: false,
-      userID: '',
-      name: '',
-      email: '',
-      picture: '',
+      isOpen: false,
       isModalOpen: false,
       isModalOpen2: false
     };
-   
+    this.toggleCollapse = this.toggleCollapse.bind(this);
     this.toggleModal = this.toggleModal.bind(this);
     this.handleLogin = this.handleLogin.bind(this);
     this.toggleModal2 = this.toggleModal2.bind(this);
   }
-
-  responseFacebook(response) {
-    console.log(response);
-  }
   
+
+  toggleCollapse(){
+    this.setState({ 
+      isOpen: !this.state.isOpen 
+    });
+  } 
+ 
   toggleModal() {
     this.setState({
         isModalOpen: !this.state.isModalOpen
@@ -43,34 +42,78 @@ class JumbotronPage extends React.Component {
     event.preventDefault();
 
 }
-  render(){
-    
-    return (
-      <div>
-      <MDBContainer className="mt-5 text-center">
-        <MDBRow>
-          <MDBCol>
-            <MDBJumbotron>
-              <h2 className="h1 display-3">Hello, world!</h2>
-              <p className="lead">
-                This is a simple hero unit, a simple Jumbotron-style component for
-                calling extra attention to featured content or information.
-              </p>
-              <hr className="my-2" />
-              <p>
-                It uses utility classes for typgraphy and spacing to space content out
-                within the larger container.
-              </p>
-              <p className="lead">
-                <MDBBtn color="default" onClick={this.toggleModal}>Learn More</MDBBtn>
-              </p>
-            </MDBJumbotron>
-          </MDBCol>
-        </MDBRow>
-      </MDBContainer>
 
-        {/*Modal for login form */}
-      <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal} >
+  render() {
+    return (
+      <>
+      <Navbar color="default-color-dark" dark expand="md">
+          <NavbarBrand>
+            <strong className="white-text">Navbar</strong>
+          </NavbarBrand>
+          <NavbarToggler
+            onClick={this.toggleCollapse}
+          />
+          <Collapse
+            id="navbarCollapse3"
+            isOpen={this.state.isOpen}
+            navbar
+          >
+            <NavbarNav left>
+              <NavItem active>
+                <NavLink to="/home">Home</NavLink>
+              </NavItem>
+              <NavItem>
+                <Dropdown>
+                  <DropdownToggle nav caret>
+                    <div className="d-none d-md-inline">Categories</div>
+                  </DropdownToggle>
+                  <DropdownMenu right>
+                    <DropdownItem href="/categories/grocery">Grocery</DropdownItem>
+                    <DropdownItem href="#!">Books {`&`} Stationery</DropdownItem>
+                    <DropdownItem href="#!">Electronics</DropdownItem>
+                    <DropdownItem href="#!">Sports {`&`} Fitness</DropdownItem>
+                    <DropdownItem href="#!">Accessories</DropdownItem>
+                  </DropdownMenu>
+                </Dropdown>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/aboutus">About Us</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/contactus">Contact Us</NavLink>
+              </NavItem>
+            </NavbarNav>
+            <NavbarNav right>
+              <NavItem>
+                <FormInline waves>
+                  <div className="md-form my-0">
+                  <Fa className="text-white" icon="search"  />
+                    <input
+                      className="form-control col-md-12"
+                      type="text"
+                      placeholder="Search for products"
+                      aria-label="Search"
+                    />
+                  </div>
+                </FormInline>
+              </NavItem>
+            </NavbarNav>
+
+            <NavbarNav right>
+              <NavItem>
+                <FormInline waves>
+                  <div className="md-form my-0">
+                  <MDBBtn outline color="white" onClick={this.toggleModal}>Login</MDBBtn>
+                  </div>
+                </FormInline>
+              </NavItem>
+            </NavbarNav>
+          </Collapse>
+        </Navbar>
+
+
+       {/*Modal for login form */}
+       <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal} >
       <ModalBody>
         <Form onSubmit={this.handleLogin}>
       <MDBContainer>
@@ -176,17 +219,9 @@ class JumbotronPage extends React.Component {
                 </p>
               </MDBRow>
               <MDBRow className="mt-2 mb-3 d-flex justify-content-center">
-                <div className="fa-lg p-2 m-2 fb-ic">
-                    <FacebookLogin
-                    appId="2004388869598147"
-                    autoLoad={true}
-                    fields="name,email,picture"
-                    callback={this.responseFacebook}
-                    render={renderProps => (
-                      <MDBIcon className="fa fa-facebook white-text fa-lg" onClick={renderProps.onClick}> </MDBIcon>
-                    )}
-                /> 
-                </div>
+                <a href="#!" className="fa-lg p-2 m-2 fb-ic">
+                  <MDBIcon className="fa fa-facebook white-text fa-lg"> </MDBIcon>
+                </a>
                 <a href="#!" className="fa-lg p-2 m-2 tw-ic">
                   <MDBIcon className="fa fa-twitter white-text fa-lg"> </MDBIcon>
                 </a>
@@ -204,10 +239,9 @@ class JumbotronPage extends React.Component {
     </Form>
     </ModalBody>
     </Modal>
-    </div>
+    </>
     );
   }
-  
 }
 
-export default JumbotronPage;
+export default NavbarPage;

@@ -3,7 +3,7 @@ import  Home  from './Home';
 import Footer from './Footer';
 import TeamPage from './About';
 import ContactPage from './Contact';
-import NavbarPage from './Nav';
+import NavbarPage from './navb';
 import EcommercePage from './Categories';
 import { Switch, Route, Redirect } from 'react-router-dom';
 

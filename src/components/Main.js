@@ -4,7 +4,7 @@ import Footer from './Footer';
 import TeamPage from './About';
 import ContactPage from './Contact';
 import NavbarPage from './navb';
-import EcommercePage from './Categories';
+import EcommercePage from './categories';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 

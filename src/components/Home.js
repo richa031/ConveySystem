@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import  EcommercePage  from './Categories';
+import  EcommercePage  from './categories';
 import Header from './Header';
 import Footer from './Footer';
 

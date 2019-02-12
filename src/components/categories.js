@@ -3,7 +3,7 @@ import { MDBRow, MDBCol, MDBCard, MDBCardImage, MDBCardBody, MDBCardTitle, MDBCa
 
 const EcommercePage = () => {
   return (
-    <section className="text-center my-5">
+    <section className="text-center my-5 container">
       <h2 className="h1-responsive font-weight-bold text-center my-5">
         Our Categories
       </h2>
@@ -13,7 +13,7 @@ const EcommercePage = () => {
         totam voluptas nostrum quisquam eum porro a pariatur veniam.
       </p>
       <MDBRow>
-        <MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
+        <MDBCol lg="2" md="12" className="mb-lg-0 mb-2">
           <MDBCard wide ecommerce>
             <MDBCardImage
               cascade
@@ -58,7 +58,8 @@ const EcommercePage = () => {
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
-        <MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
+
+        <MDBCol lg="2" md="12" className="mb-lg-0 mb-2">
           <MDBCard wide ecommerce>
             <MDBCardImage
               cascade
@@ -103,7 +104,424 @@ const EcommercePage = () => {
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
-        <MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
+
+        <MDBCol lg="2" md="12" className="mb-lg-0 mb-2">
+          <MDBCard wide ecommerce>
+            <MDBCardImage
+              cascade
+              src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img (56).jpg"
+              top
+              alt="sample photo"
+            />
+            <MDBCardBody cascade className="text-center">
+              <a href="#!" className="text-muted">
+                <h5>Stationery</h5>
+              </a>
+              <MDBCardTitle>
+                <strong>
+                  <a href="#!">Grab</a>
+                </strong>
+              </MDBCardTitle>
+              <MDBCardText>
+                Lorem ipsum dolor sit amet, consectetur adipisicing minima
+                veniam elit.
+              </MDBCardText>
+              <MDBCardFooter className="px-1">
+                <span className="float-left font-weight-bold">
+                  <strong>2160$</strong>
+                </span>
+                <span className="float-right">
+                  <MDBTooltip
+                    placement="top"
+                    tag="a"
+                    component="i"
+                    componentClass="fa fa-eye grey-text ml-3"
+                    tooltipContent="Quick look"
+                  />
+                  <MDBTooltip
+                    placement="top"
+                    tag="a"
+                    component="i"
+                    componentClass="fa fa-heart grey-text ml-3"
+                    tooltipContent="Add to watchlist"
+                  />
+                </span>
+              </MDBCardFooter>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+
+        <MDBCol lg="2" md="12" className="mb-lg-0 mb-2">
+          <MDBCard wide ecommerce>
+            <MDBCardImage
+              cascade
+              src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img (56).jpg"
+              top
+              alt="sample photo"
+            />
+            <MDBCardBody cascade className="text-center">
+              <a href="#!" className="text-muted">
+                <h5>Stationery</h5>
+              </a>
+              <MDBCardTitle>
+                <strong>
+                  <a href="#!">Grab</a>
+                </strong>
+              </MDBCardTitle>
+              <MDBCardText>
+                Lorem ipsum dolor sit amet, consectetur adipisicing minima
+                veniam elit.
+              </MDBCardText>
+              <MDBCardFooter className="px-1">
+                <span className="float-left font-weight-bold">
+                  <strong>2160$</strong>
+                </span>
+                <span className="float-right">
+                  <MDBTooltip
+                    placement="top"
+                    tag="a"
+                    component="i"
+                    componentClass="fa fa-eye grey-text ml-3"
+                    tooltipContent="Quick look"
+                  />
+                  <MDBTooltip
+                    placement="top"
+                    tag="a"
+                    component="i"
+                    componentClass="fa fa-heart grey-text ml-3"
+                    tooltipContent="Add to watchlist"
+                  />
+                </span>
+              </MDBCardFooter>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+
+        <MDBCol lg="2" md="12" className="mb-lg-0 mb-2">
+          <MDBCard wide ecommerce>
+            <MDBCardImage
+              cascade
+              src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img (56).jpg"
+              top
+              alt="sample photo"
+            />
+            <MDBCardBody cascade className="text-center">
+              <a href="#!" className="text-muted">
+                <h5>Stationery</h5>
+              </a>
+              <MDBCardTitle>
+                <strong>
+                  <a href="#!">Grab</a>
+                </strong>
+              </MDBCardTitle>
+              <MDBCardText>
+                Lorem ipsum dolor sit amet, consectetur adipisicing minima
+                veniam elit.
+              </MDBCardText>
+              <MDBCardFooter className="px-1">
+                <span className="float-left font-weight-bold">
+                  <strong>2160$</strong>
+                </span>
+                <span className="float-right">
+                  <MDBTooltip
+                    placement="top"
+                    tag="a"
+                    component="i"
+                    componentClass="fa fa-eye grey-text ml-3"
+                    tooltipContent="Quick look"
+                  />
+                  <MDBTooltip
+                    placement="top"
+                    tag="a"
+                    component="i"
+                    componentClass="fa fa-heart grey-text ml-3"
+                    tooltipContent="Add to watchlist"
+                  />
+                </span>
+              </MDBCardFooter>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+
+        <MDBCol lg="2" md="12" className="mb-lg-0 mb-2">
+          <MDBCard wide ecommerce>
+            <MDBCardImage
+              cascade
+              src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img (56).jpg"
+              top
+              alt="sample photo"
+            />
+            <MDBCardBody cascade className="text-center">
+              <a href="#!" className="text-muted">
+                <h5>Stationery</h5>
+              </a>
+              <MDBCardTitle>
+                <strong>
+                  <a href="#!">Grab</a>
+                </strong>
+              </MDBCardTitle>
+              <MDBCardText>
+                Lorem ipsum dolor sit amet, consectetur adipisicing minima
+                veniam elit.
+              </MDBCardText>
+              <MDBCardFooter className="px-1">
+                <span className="float-left font-weight-bold">
+                  <strong>2160$</strong>
+                </span>
+                <span className="float-right">
+                  <MDBTooltip
+                    placement="top"
+                    tag="a"
+                    component="i"
+                    componentClass="fa fa-eye grey-text ml-3"
+                    tooltipContent="Quick look"
+                  />
+                  <MDBTooltip
+                    placement="top"
+                    tag="a"
+                    component="i"
+                    componentClass="fa fa-heart grey-text ml-3"
+                    tooltipContent="Add to watchlist"
+                  />
+                </span>
+              </MDBCardFooter>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+      </MDBRow>
+      <br />
+      <MDBRow>
+        <MDBCol lg="2" md="12" className="mb-lg-0 mb-2">
+          <MDBCard wide ecommerce>
+            <MDBCardImage
+              cascade
+              src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img (55).jpg"
+              top
+              alt="sample photo"
+            />
+            <MDBCardBody cascade className="text-center">
+              <a href="#!" className="text-muted">
+                <h5>Accessories</h5>
+              </a>
+              <MDBCardTitle>
+                <strong>
+                  <a href="#!">Grab</a>
+                </strong>
+              </MDBCardTitle>
+              <MDBCardText>
+                Lorem ipsum dolor sit amet, consectetur adipisicing minima
+                veniam elit.
+              </MDBCardText>
+              <MDBCardFooter className="px-1">
+                <span className="float-left font-weight-bold">
+                  <strong>1439$</strong>
+                </span>
+                <span className="float-right">
+                  <MDBTooltip
+                    placement="top"
+                    tag="a"
+                    component="i"
+                    componentClass="fa fa-eye grey-text ml-3"
+                    tooltipContent="Quick look"
+                  />
+                  <MDBTooltip
+                    placement="top"
+                    tag="a"
+                    component="i"
+                    componentClass="fa fa-heart grey-text ml-3"
+                    tooltipContent="Add to watchlist"
+                  />
+                </span>
+              </MDBCardFooter>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+
+        <MDBCol lg="2" md="12" className="mb-lg-0 mb-2">
+          <MDBCard wide ecommerce>
+            <MDBCardImage
+              cascade
+              src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img (49).jpg"
+              top
+              alt="sample photo"
+            />
+            <MDBCardBody cascade className="text-center">
+              <a href="#!" className="text-muted">
+                <h5>Sports {`&`} Fitness</h5>
+              </a>
+              <MDBCardTitle>
+                <strong>
+                  <a href="#!">Grab</a>
+                </strong>
+              </MDBCardTitle>
+              <MDBCardText>
+                Lorem ipsum dolor sit amet, consectetur adipisicing minima
+                veniam elit.
+              </MDBCardText>
+              <MDBCardFooter className="px-1">
+                <span className="float-left font-weight-bold">
+                  <strong>1160$</strong>
+                </span>
+                <span className="float-right">
+                  <MDBTooltip
+                    placement="top"
+                    tag="a"
+                    component="i"
+                    componentClass="fa fa-eye grey-text ml-3"
+                    tooltipContent="Quick look"
+                  />
+                  <MDBTooltip
+                    placement="top"
+                    tag="a"
+                    component="i"
+                    componentClass="fa fa-heart grey-text ml-3"
+                    tooltipContent="Add to watchlist"
+                  />
+                </span>
+              </MDBCardFooter>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+
+        <MDBCol lg="2" md="12" className="mb-lg-0 mb-2">
+          <MDBCard wide ecommerce>
+            <MDBCardImage
+              cascade
+              src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img (56).jpg"
+              top
+              alt="sample photo"
+            />
+            <MDBCardBody cascade className="text-center">
+              <a href="#!" className="text-muted">
+                <h5>Stationery</h5>
+              </a>
+              <MDBCardTitle>
+                <strong>
+                  <a href="#!">Grab</a>
+                </strong>
+              </MDBCardTitle>
+              <MDBCardText>
+                Lorem ipsum dolor sit amet, consectetur adipisicing minima
+                veniam elit.
+              </MDBCardText>
+              <MDBCardFooter className="px-1">
+                <span className="float-left font-weight-bold">
+                  <strong>2160$</strong>
+                </span>
+                <span className="float-right">
+                  <MDBTooltip
+                    placement="top"
+                    tag="a"
+                    component="i"
+                    componentClass="fa fa-eye grey-text ml-3"
+                    tooltipContent="Quick look"
+                  />
+                  <MDBTooltip
+                    placement="top"
+                    tag="a"
+                    component="i"
+                    componentClass="fa fa-heart grey-text ml-3"
+                    tooltipContent="Add to watchlist"
+                  />
+                </span>
+              </MDBCardFooter>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+
+        <MDBCol lg="2" md="12" className="mb-lg-0 mb-2">
+          <MDBCard wide ecommerce>
+            <MDBCardImage
+              cascade
+              src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img (56).jpg"
+              top
+              alt="sample photo"
+            />
+            <MDBCardBody cascade className="text-center">
+              <a href="#!" className="text-muted">
+                <h5>Stationery</h5>
+              </a>
+              <MDBCardTitle>
+                <strong>
+                  <a href="#!">Grab</a>
+                </strong>
+              </MDBCardTitle>
+              <MDBCardText>
+                Lorem ipsum dolor sit amet, consectetur adipisicing minima
+                veniam elit.
+              </MDBCardText>
+              <MDBCardFooter className="px-1">
+                <span className="float-left font-weight-bold">
+                  <strong>2160$</strong>
+                </span>
+                <span className="float-right">
+                  <MDBTooltip
+                    placement="top"
+                    tag="a"
+                    component="i"
+                    componentClass="fa fa-eye grey-text ml-3"
+                    tooltipContent="Quick look"
+                  />
+                  <MDBTooltip
+                    placement="top"
+                    tag="a"
+                    component="i"
+                    componentClass="fa fa-heart grey-text ml-3"
+                    tooltipContent="Add to watchlist"
+                  />
+                </span>
+              </MDBCardFooter>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+
+        <MDBCol lg="2" md="12" className="mb-lg-0 mb-2">
+          <MDBCard wide ecommerce>
+            <MDBCardImage
+              cascade
+              src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img (56).jpg"
+              top
+              alt="sample photo"
+            />
+            <MDBCardBody cascade className="text-center">
+              <a href="#!" className="text-muted">
+                <h5>Stationery</h5>
+              </a>
+              <MDBCardTitle>
+                <strong>
+                  <a href="#!">Grab</a>
+                </strong>
+              </MDBCardTitle>
+              <MDBCardText>
+                Lorem ipsum dolor sit amet, consectetur adipisicing minima
+                veniam elit.
+              </MDBCardText>
+              <MDBCardFooter className="px-1">
+                <span className="float-left font-weight-bold">
+                  <strong>2160$</strong>
+                </span>
+                <span className="float-right">
+                  <MDBTooltip
+                    placement="top"
+                    tag="a"
+                    component="i"
+                    componentClass="fa fa-eye grey-text ml-3"
+                    tooltipContent="Quick look"
+                  />
+                  <MDBTooltip
+                    placement="top"
+                    tag="a"
+                    component="i"
+                    componentClass="fa fa-heart grey-text ml-3"
+                    tooltipContent="Add to watchlist"
+                  />
+                </span>
+              </MDBCardFooter>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+
+        <MDBCol lg="2" md="12" className="mb-lg-0 mb-2">
           <MDBCard wide ecommerce>
             <MDBCardImage
               cascade

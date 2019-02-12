@@ -23,6 +23,10 @@ class Main extends Component {
               <Switch>
                 <Route path="/home" component={HomePage} />
                 <Route exact path="/categories/grocery" component={() => <EcommercePage />} />
+                <Route exact path="/categories/books" component={() => <EcommercePage />} />
+                <Route exact path="/categories/electronics" component={() => <EcommercePage />} />
+                <Route exact path="/categories/sports" component={() => <EcommercePage />} />
+                <Route exact path="/catgories/accessories" component={() => <EcommercePage />} />
                 <Route exact path="/aboutus" component={() => <TeamPage />} />
                 <Route path="/contactus" component={() => <ContactPage />} />
                 <Redirect to="/home" />

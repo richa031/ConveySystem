@@ -69,10 +69,10 @@ class NavbarPage extends React.Component {
                   </DropdownToggle>
                   <DropdownMenu right>
                     <DropdownItem href="/categories/grocery">Grocery</DropdownItem>
-                    <DropdownItem href="#!">Books {`&`} Stationery</DropdownItem>
-                    <DropdownItem href="#!">Electronics</DropdownItem>
-                    <DropdownItem href="#!">Sports {`&`} Fitness</DropdownItem>
-                    <DropdownItem href="#!">Accessories</DropdownItem>
+                    <DropdownItem href="/categories/books">Books {`&`} Stationery</DropdownItem>
+                    <DropdownItem href="/categories/electronics">Electronics</DropdownItem>
+                    <DropdownItem href="/categories/sports">Sports {`&`} Fitness</DropdownItem>
+                    <DropdownItem href="/catgories/accessories">Accessories</DropdownItem>
                   </DropdownMenu>
                 </Dropdown>
               </NavItem>

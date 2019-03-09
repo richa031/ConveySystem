@@ -8,9 +8,7 @@ const ContactPage = () => {
         Contact us
       </h2>
       <p className="text-center w-responsive mx-auto pb-5">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-        error amet numquam iure provident voluptate esse quasi, veritatis
-        totam voluptas nostrum quisquam eum porro a pariatur veniam.
+       Don't forget to write to us. Your feedback is all we have. 
       </p>
       <MDBRow>
         <MDBCol lg="5" className="lg-0 mb-4">
@@ -101,7 +99,7 @@ const ContactPage = () => {
               <MDBBtn tag="a" floating color="blue" className="accent-1">
                 <MDBIcon icon="envelope" />
               </MDBBtn>
-              <p>info@gmail.com</p>
+              <p>17ucs126@lnmiit.ac.in</p>
               <p className="mb-md-0">sale@gmail.com</p>
             </MDBCol>
           </MDBRow>

@@ -8,9 +8,7 @@ const EcommercePage = () => {
         Our Categories
       </h2>
       <p className="grey-text text-center w-responsive mx-auto mb-5">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-        error amet numquam iure provident voluptate esse quasi, veritatis
-        totam voluptas nostrum quisquam eum porro a pariatur veniam.
+        Our categories include the group of products you might need. You can click on any of them according to your choice.
       </p>
       <MDBRow>
         <MDBCol lg="2" md="12" className="mb-lg-0 mb-2">
@@ -69,7 +67,7 @@ const EcommercePage = () => {
             />
             <MDBCardBody cascade className="text-center">
               <a href="#!" className="text-muted">
-                <h5>Sports {`&`} Fitness</h5>
+                <h5>Sports</h5>
               </a>
               <MDBCardTitle>
                 <strong>
@@ -347,7 +345,7 @@ const EcommercePage = () => {
             />
             <MDBCardBody cascade className="text-center">
               <a href="#!" className="text-muted">
-                <h5>Sports {`&`} Fitness</h5>
+                <h5>Sports</h5>
               </a>
               <MDBCardTitle>
                 <strong>

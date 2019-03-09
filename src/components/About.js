@@ -10,20 +10,18 @@ class TeamPage extends React.Component{
                     Our amazing team
                   </h2>
                   <p className="grey-text w-responsive mx-auto mb-5">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-                    error amet numquam iure provident voluptate esse quasi, veritatis
-                    totam voluptas nostrum quisquam eum porro a pariatur veniam.
+                  It took their immense efforts to pull through this project.
                   </p>
                   <MDBRow>
-                    <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
+                    <MDBCol lg="6" md="2" className="mb-lg-0 mb-5">
                       <img
                         tag="img"
                         src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg"
                         className="rounded-circle z-depth-1 img-fluid"
                         alt="Sample avatar"
                       />
-                      <h5 className="font-weight-bold mt-4 mb-3">Anna Williams</h5>
-                      <p className="text-uppercase blue-text">Graphic designer</p>
+                      <h5 className="font-weight-bold mt-4 mb-3">Akagra Gupta</h5>
+                      <p className="text-uppercase blue-text">Backend Developer</p>
                       <p className="grey-text">
                         Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
                         consectetur, adipisci sed quia non numquam modi tempora eius.
@@ -41,15 +39,15 @@ class TeamPage extends React.Component{
                       </ul>
                     </MDBCol>
         
-                    <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
+                    <MDBCol lg="6" md="2" className="mb-lg-0 mb-5">
                       <img
                         tag="img"
                         src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg"
                         className="rounded-circle z-depth-1 img-fluid"
                         alt="Sample avatar"
                       />
-                      <h5 className="font-weight-bold mt-4 mb-3">John Doe</h5>
-                      <p className="text-uppercase blue-text">Web Developer</p>
+                      <h5 className="font-weight-bold mt-4 mb-3">Richa Agarwal</h5>
+                      <p className="text-uppercase blue-text">Frontend Developer</p>
                       <p className="grey-text">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                         ipsa accusantium doloremque rem laudantium totam aperiam.
@@ -63,56 +61,7 @@ class TeamPage extends React.Component{
                         </a>
                       </ul>
                     </MDBCol>
-        
-                    <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
-                      <img
-                        tag="img"
-                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
-                        className="rounded-circle z-depth-1 img-fluid"
-                        alt="Sample avatar"
-                      />
-                      <h5 className="font-weight-bold mt-4 mb-3">Maria Smith</h5>
-                      <p className="text-uppercase blue-text">Photographer</p>
-                      <p className="grey-text">
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                        qui officia deserunt mollit anim est fugiat nulla id eu laborum.
-                      </p>
-                      <ul className="list-unstyled mb-0">
-                        <a href="#!" className="p-2 fa-lg">
-                          <MDBIcon icon="facebook" className="blue-text" />
-                        </a>
-                        <a href="#!" className="p-2 fa-lg">
-                          <MDBIcon icon="instagram" className="blue-text" />
-                        </a>
-                        <a href="#!" className="p-2 fa-lg">
-                          <MDBIcon icon="dribbble" className="blue-text" />
-                        </a>
-                      </ul>
-                    </MDBCol>
-        
-                    <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
-                      <img
-                        tag="img"
-                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg"
-                        className="rounded-circle z-depth-1 img-fluid"
-                        alt="Sample avatar"
-                      />
-                      <h5 className="font-weight-bold mt-4 mb-3">Tom Adams</h5>
-                      <p className="text-uppercase blue-text">Backend Developer</p>
-                      <p className="grey-text">
-                        Perspiciatis repellendus ad odit consequuntur, eveniet earum
-                        nisi qui consectetur totam officia voluptates perferendis
-                        voluptatibus aut.
-                      </p>
-                      <ul className="list-unstyled mb-0">
-                        <a href="#!" className="p-2 fa-lg">
-                          <MDBIcon icon="facebook" className="blue-text" />
-                        </a>
-                        <a href="#!" className="p-2 fa-lg">
-                          <MDBIcon icon="github" className="blue-text" />
-                        </a>
-                      </ul>
-                    </MDBCol>
+
                   </MDBRow>
                 </MDBCardBody>
               </MDBCard>

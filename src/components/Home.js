@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import  EcommercePage  from './categories';
+//import  EcommercePage  from './categories';
 import Header from './Header';
 import Footer from './Footer';
+import EcommercePage from './HomeCategories';
 
 class Home extends Component{
 

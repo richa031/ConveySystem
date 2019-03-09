@@ -48,7 +48,7 @@ class NavbarPage extends React.Component {
       <>
       <Navbar color="default-color-dark" dark expand="md">
           <NavbarBrand>
-            <strong className="white-text">Navbar</strong>
+            <strong className="white-text">Let's D</strong>
           </NavbarBrand>
           <NavbarToggler
             onClick={this.toggleCollapse}

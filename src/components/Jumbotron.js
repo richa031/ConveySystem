@@ -57,15 +57,13 @@ class JumbotronPage extends React.Component {
         <MDBRow>
           <MDBCol>
             <MDBJumbotron>
-              <h2 className="h1 display-3">Hello, world!</h2>
+              <h2 className="h1 display-3">Hello, folks!</h2>
               <p className="lead">
-                This is a simple hero unit, a simple Jumbotron-style component for
-                calling extra attention to featured content or information.
+                Let's D team provides you with best of our services to deliver the products you need.
               </p>
               <hr className="my-2" />
               <p>
-                It uses utility classes for typgraphy and spacing to space content out
-                within the larger container.
+               You are just one click apart from making your life much easier.
               </p>
               <p className="lead">
                 <MDBBtn color="default" onClick={this.toggleModal}>Learn More</MDBBtn>

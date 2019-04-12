@@ -70,6 +70,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ### Backend API
 
 this is the backend server : http://akagragupta.pythonanywhere.com/
-this are all links to Backend: http://akagragupta.pythonanywhere.com/product
+this are all links to  APIs: http://akagragupta.pythonanywhere.com/product
                                http://akagragupta.pythonanywhere.com/customer
                                http://akagragupta.pythonanywhere.com/order

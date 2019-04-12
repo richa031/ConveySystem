@@ -67,3 +67,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
+### Backend API
+
+this is the backend server : http://akagragupta.pythonanywhere.com/
+this are all links to Backend: http://akagragupta.pythonanywhere.com/product
+                               http://akagragupta.pythonanywhere.com/customer
+                               http://akagragupta.pythonanywhere.com/order
